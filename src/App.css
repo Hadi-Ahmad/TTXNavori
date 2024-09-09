@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,102 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .media-grid {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 20px; 
+  max-width: 1200px;
+}
+
+.media-item {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 300px;
+  text-align: center;
+} */
+ 
+.media-item {
+  border: 4px solid #c4c9c6 !important;;
+  background: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.media-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Modal container */
+.media-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Center horizontally and vertically */
+  width: 80%;                        /* Dynamic width (relative to viewport) */
+  max-width: 800px;                   /* Max width (doesn't exceed 800px) */
+  max-height: 80vh;                   /* Max height (80% of the viewport height) */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: auto;                     /* Enable scrolling if content overflows */
+}
+
+/* Modal overlay (background) */
+.media-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);     /* Dark transparent background */
+  z-index: 1000;
+}
+
+/* Content inside the modal (image or video) */
+.media-content img,
+.media-content video {
+  max-width: 100%;                    /* Ensure content does not exceed modal width */
+  max-height: 70vh;                   /* Ensure content does not exceed modal height */
+  display: block;
+  margin: 0 auto;                     /* Center the content within the modal */
+}
+
+/* Button to close the modal */
+.media-modal button {
+  display: block;
+  margin-left: auto;                  /* Right-align the close button */
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.media-modal button:hover {
+  background-color: #d32f2f;          /* Darken button on hover */
+}
+
+.media-item:hover{
+  color: #01ed01;
+  box-shadow: 0 0 5px #01ed01;
+  text-shadow: 0 0 5px #01ed01;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #fff;
+  word-wrap: break-word; /* Prevents long titles from overflowing */
 }
