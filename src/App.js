@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     console.log("useEffect called");
-    fetch("/api/get-media?groupId=86727")
+    fetch('https://protected-citadel-77393-7d59916148e0.herokuapp.com/api/get-media?groupId=86727')
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
