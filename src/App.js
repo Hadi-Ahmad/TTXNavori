@@ -11,9 +11,11 @@ function App() {
   const [selectedMedia, setSelectedMedia] = useState(null); // State to track selected media for modal
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const apiUrl = process.env.REACT_APP_API_URL;
+
   useEffect(() => {
     console.log("useEffect called");
-    fetch('https://protected-citadel-77393-7d59916148e0.herokuapp.com/api/get-media?groupId=86727')
+    fetch(`${apiUrl}/api/get-media?groupId=86727`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
@@ -52,7 +54,7 @@ function App() {
               <p>Loading...</p>
             ) : (
               media.map((item, index) => {
-                const imageUrl = `/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${item.ThumbnailPath}`)}`;
+                const imageUrl = `${apiUrl}/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${item.ThumbnailPath}`)}`;
 
                 return (
                   <button key={index} className="media-item" onClick={() => handleClick(item)}>
@@ -82,7 +84,7 @@ function App() {
               <button onClick={closeModal}>Close</button>
               {selectedMedia.FileType === 'video' ? (
                 <ReactPlayer
-                  url={`/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${selectedMedia.MediaPath}`)}`}
+                  url={`${apiUrl}/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${selectedMedia.MediaPath}`)}`}
                   controls
                   playing
                   width="100%"
@@ -92,7 +94,7 @@ function App() {
                 />
               ) : (
                 <img
-                  src={`/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${selectedMedia.MediaPath}`)}`}
+                  src={`${apiUrl}/api/proxy-image?url=${encodeURIComponent(`https://saas.navori.com/NavoriService/MediaUpload.aspx?key=${selectedMedia.MediaPath}`)}`}
                   alt={selectedMedia.ThumbnailPath}
                   style={{ width: "100%" }}
                 />
