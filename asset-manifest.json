@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TTXNavori/static/css/main.7a00b411.css",
-    "main.js": "/TTXNavori/static/js/main.da89ebe0.js",
+    "main.js": "/TTXNavori/static/js/main.6b3a95eb.js",
     "reactPlayerYouTube.js": "/TTXNavori/static/js/reactPlayerYouTube.4f49f198.chunk.js",
     "reactPlayerSoundCloud.js": "/TTXNavori/static/js/reactPlayerSoundCloud.542b9759.chunk.js",
     "reactPlayerVimeo.js": "/TTXNavori/static/js/reactPlayerVimeo.58873206.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/453.7b5e53e7.chunk.js": "/TTXNavori/static/js/453.7b5e53e7.chunk.js",
     "index.html": "/TTXNavori/index.html",
     "main.7a00b411.css.map": "/TTXNavori/static/css/main.7a00b411.css.map",
-    "main.da89ebe0.js.map": "/TTXNavori/static/js/main.da89ebe0.js.map",
+    "main.6b3a95eb.js.map": "/TTXNavori/static/js/main.6b3a95eb.js.map",
     "reactPlayerYouTube.4f49f198.chunk.js.map": "/TTXNavori/static/js/reactPlayerYouTube.4f49f198.chunk.js.map",
     "reactPlayerSoundCloud.542b9759.chunk.js.map": "/TTXNavori/static/js/reactPlayerSoundCloud.542b9759.chunk.js.map",
     "reactPlayerVimeo.58873206.chunk.js.map": "/TTXNavori/static/js/reactPlayerVimeo.58873206.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.7a00b411.css",
-    "static/js/main.da89ebe0.js"
+    "static/js/main.6b3a95eb.js"
   ]
 }
