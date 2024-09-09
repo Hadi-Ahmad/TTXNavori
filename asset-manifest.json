@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/TTXNavori/static/css/main.7a00b411.css",
+    "main.js": "/TTXNavori/static/js/main.2642f3e6.js",
+    "reactPlayerYouTube.js": "/TTXNavori/static/js/reactPlayerYouTube.4f49f198.chunk.js",
+    "reactPlayerSoundCloud.js": "/TTXNavori/static/js/reactPlayerSoundCloud.542b9759.chunk.js",
+    "reactPlayerVimeo.js": "/TTXNavori/static/js/reactPlayerVimeo.58873206.chunk.js",
+    "reactPlayerMux.js": "/TTXNavori/static/js/reactPlayerMux.68a2693b.chunk.js",
+    "reactPlayerFacebook.js": "/TTXNavori/static/js/reactPlayerFacebook.19eab971.chunk.js",
+    "reactPlayerStreamable.js": "/TTXNavori/static/js/reactPlayerStreamable.b850b314.chunk.js",
+    "reactPlayerWistia.js": "/TTXNavori/static/js/reactPlayerWistia.e17acb8e.chunk.js",
+    "reactPlayerTwitch.js": "/TTXNavori/static/js/reactPlayerTwitch.5ff70d3e.chunk.js",
+    "reactPlayerDailyMotion.js": "/TTXNavori/static/js/reactPlayerDailyMotion.43b61fb9.chunk.js",
+    "reactPlayerMixcloud.js": "/TTXNavori/static/js/reactPlayerMixcloud.2e85560d.chunk.js",
+    "reactPlayerVidyard.js": "/TTXNavori/static/js/reactPlayerVidyard.11b34f3c.chunk.js",
+    "reactPlayerKaltura.js": "/TTXNavori/static/js/reactPlayerKaltura.c8ca9ff1.chunk.js",
+    "reactPlayerFilePlayer.js": "/TTXNavori/static/js/reactPlayerFilePlayer.9a97f725.chunk.js",
+    "reactPlayerPreview.js": "/TTXNavori/static/js/reactPlayerPreview.04994686.chunk.js",
+    "static/js/453.7b5e53e7.chunk.js": "/TTXNavori/static/js/453.7b5e53e7.chunk.js",
+    "index.html": "/TTXNavori/index.html",
+    "main.7a00b411.css.map": "/TTXNavori/static/css/main.7a00b411.css.map",
+    "main.2642f3e6.js.map": "/TTXNavori/static/js/main.2642f3e6.js.map",
+    "reactPlayerYouTube.4f49f198.chunk.js.map": "/TTXNavori/static/js/reactPlayerYouTube.4f49f198.chunk.js.map",
+    "reactPlayerSoundCloud.542b9759.chunk.js.map": "/TTXNavori/static/js/reactPlayerSoundCloud.542b9759.chunk.js.map",
+    "reactPlayerVimeo.58873206.chunk.js.map": "/TTXNavori/static/js/reactPlayerVimeo.58873206.chunk.js.map",
+    "reactPlayerMux.68a2693b.chunk.js.map": "/TTXNavori/static/js/reactPlayerMux.68a2693b.chunk.js.map",
+    "reactPlayerFacebook.19eab971.chunk.js.map": "/TTXNavori/static/js/reactPlayerFacebook.19eab971.chunk.js.map",
+    "reactPlayerStreamable.b850b314.chunk.js.map": "/TTXNavori/static/js/reactPlayerStreamable.b850b314.chunk.js.map",
+    "reactPlayerWistia.e17acb8e.chunk.js.map": "/TTXNavori/static/js/reactPlayerWistia.e17acb8e.chunk.js.map",
+    "reactPlayerTwitch.5ff70d3e.chunk.js.map": "/TTXNavori/static/js/reactPlayerTwitch.5ff70d3e.chunk.js.map",
+    "reactPlayerDailyMotion.43b61fb9.chunk.js.map": "/TTXNavori/static/js/reactPlayerDailyMotion.43b61fb9.chunk.js.map",
+    "reactPlayerMixcloud.2e85560d.chunk.js.map": "/TTXNavori/static/js/reactPlayerMixcloud.2e85560d.chunk.js.map",
+    "reactPlayerVidyard.11b34f3c.chunk.js.map": "/TTXNavori/static/js/reactPlayerVidyard.11b34f3c.chunk.js.map",
+    "reactPlayerKaltura.c8ca9ff1.chunk.js.map": "/TTXNavori/static/js/reactPlayerKaltura.c8ca9ff1.chunk.js.map",
+    "reactPlayerFilePlayer.9a97f725.chunk.js.map": "/TTXNavori/static/js/reactPlayerFilePlayer.9a97f725.chunk.js.map",
+    "reactPlayerPreview.04994686.chunk.js.map": "/TTXNavori/static/js/reactPlayerPreview.04994686.chunk.js.map",
+    "453.7b5e53e7.chunk.js.map": "/TTXNavori/static/js/453.7b5e53e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a00b411.css",
+    "static/js/main.2642f3e6.js"
+  ]
+}
